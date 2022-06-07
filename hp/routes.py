@@ -16,8 +16,7 @@ def about():
     return render_template("about.html", title="About")
 
 
-@app.route("test", methods=["GET", "POST"])
-@login_required
+@app.route("/test", methods=["GET", "POST"])
 def test():
     form = TestForm()
     if form.validate_on_submit():
