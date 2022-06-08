@@ -1,0 +1,6 @@
+Flask==2.1.2
+flask_login==0.6.1
+flask_sqlalchemy==2.5.1
+flask_wtf==1.0.1
+nbformat==5.2.0
+WTForms==3.0.1
